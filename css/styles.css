@@ -1,0 +1,105 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+body{
+    background: #f2f2f2;
+}
+
+/* Color Palette */
+
+.color-1{
+    background-color: #111a26;
+}
+
+.color-2{
+    background-color: #1f2f3b;
+}
+
+.color-3{
+    background-color: #f2f2f2;
+}
+
+.color-4{
+    background-color: #8c7b6c;
+}
+
+.color-5{
+    background-color: #594539;
+}
+
+/* Textures or Patterns*/
+
+
+
+/* Imagery */
+
+
+/* Icons */
+
+.icon-1, .icon-2{
+    background-color: black;
+}
+
+/* Navigation */
+#main:link,
+
+#main:visited{
+    background: #d3d5d7;
+    display: flex;
+    color: #1f2f3b;
+    border-bottom: 8px solid #8c7b6c;
+    height: 50px;
+    light-height: 5px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 14px;
+    padding-left: 10%;
+    margin: 0 auto;
+    transition: all .5s;
+}
+
+#main:focus,
+#main:hover,
+#main:active{
+  background: #111a26;
+  border-bottom: 8px solid #f2f2f2;
+  color: #fffcff;
+  transition: all .8s;
+  }
+
+
+/* Typography */
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+h1{
+    color: #111a26;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    
+}
+
+h2{
+    color: #1f2f3b;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+
+}
+
+h3{
+    color: #8c7b6c;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+li{
+    list-style: none;
+}
